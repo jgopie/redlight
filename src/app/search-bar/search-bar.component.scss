@@ -1,8 +1,29 @@
-#logo{
-    color: red;
-    font-size: 30px;
+a:link {
+  text-decoration: none;
 }
 
-.form-select{
-    background-color: yellow;
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+#logo {
+  color: red;
+  font-size: 30px;
+}
+
+.form-select {
+  background-color: yellow;
+  color: black;
+}
+
+sup {
+    font-size: 50%;
 }

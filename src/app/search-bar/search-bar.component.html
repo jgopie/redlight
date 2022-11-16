@@ -1,32 +1,58 @@
 <div class="container">
-    <div class="row">
-      <div class="col-md">
-        <a href="#" id="logo">REDPARTS</a>
-      </div>
-      <div class="col-md">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown button
-          </button>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-      </div>
-      <div class="col-md">
-        <form action="/action_page.php">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-          </form>
-      </div>
-      <div class="col-md">
-        Notification Alert
-      </div>
-      <div class="col-md">
-        Login and alert
-      </div>
-      <div class="col-md">
-        Shopping cart
+  <div class="row">
+    <div class="col-md">
+      <a href="#" id="logo">REDPARTS</a>
+    </div>
+    <div class="col-md">
+      <button
+        class="btn btn-secondary dropdown-toggle form-select"
+        type="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        <i class="bi bi-car-front-fill"></i> Select Vehicle
+      </button>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Action</a></li>
+        <li><a class="dropdown-item" href="#">Another action</a></li>
+        <li><a class="dropdown-item" href="#">Something else here</a></li>
+      </ul>
+    </div>
+    <div class="col-md-4">
+      <div class="input-group rounded">
+        <input
+          type="search"
+          class="form-control rounded"
+          placeholder="Search"
+          aria-label="Search"
+          aria-describedby="search-addon"
+        />
+        <span class="input-group-text border-0" id="search-addon">
+          <i class="fas fa-search"></i>
+        </span>
       </div>
     </div>
+    <div class="col-md notificationPopUp">
+      <h3>
+        <a href="" class="text-dark mx-3">
+          <i class="bi bi-heart 2x"></i>
+          <span class="badge bg-danger badge-dot"></span>
+        </a>
+      </h3>
+    </div>
+    <div class="col-md">
+      <h3>
+        <a href="#" class="text-dark mx-3"
+          ><i class="bi bi-person"></i><sup>Login</sup></a
+        >
+      </h3>
+    </div>
+    <div class="col-md">
+      <h3>
+        <a href="#" class="text-dark mx-3"
+          ><i class="bi bi-cart4"></i><sup>Cart</sup></a
+        >
+      </h3>
+    </div>
   </div>
+</div>
