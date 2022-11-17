@@ -3,3 +3,32 @@
 @import '~@fortawesome/fontawesome-free/scss/solid.scss';
 @import '~@fortawesome/fontawesome-free/scss/regular.scss';
 @import '~@fortawesome/fontawesome-free/scss/brands.scss';
+
+
+@mixin link-all {
+  &:link {
+    text-decoration: none;
+  }
+  
+  &:visited {
+    text-decoration: none;
+  }
+  
+  &:hover {
+    text-decoration: none;
+  }
+  
+  &:active {
+    text-decoration: none;
+  }
+}
+
+a {
+  @include link-all;
+}
+
+.btn-link {
+  @include link-all;
+  text-decoration: none;
+  color: black;
+}
